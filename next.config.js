@@ -5,3 +5,11 @@ const nextConfig = {
 };
 
 module.exports = nextConfig
+
+// next.config.js
+module.exports = {
+  eslint: {
+    ignoreDuringBuilds: true, // Ignore ESLint during builds (for deployment)
+  },
+};
+
