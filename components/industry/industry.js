@@ -24,7 +24,7 @@ const Industry = () => {
                 </div>
                 <div className="content">
                   <h5
-                    className="title" style={{textTransform:"uppercase", fontSize:"14px"}}
+                    className="title" style={{textTransform:"uppercase", fontSize:"14px", lineHeight:"18px"}}
                     dangerouslySetInnerHTML={{ __html: res.industry }}
                   ></h5>
                   {/* <div className="read-more-btn">

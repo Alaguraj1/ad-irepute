@@ -126,7 +126,7 @@ export const Industries = [
   },
   {
     id: 6,
-    industry: "Chemistry",
+    industry: "Healthcare",
     img: "/images/category/web-design.png",
   },
   {
@@ -151,7 +151,7 @@ export const Industries = [
   },
   {
     id: 11,
-    industry: "Educations Institutions",
+    industry: "Educational Institutions",
     img: "/images/category/web-design.png",
   },
 ];
