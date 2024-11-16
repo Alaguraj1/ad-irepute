@@ -5,7 +5,7 @@ import BackToTop from "../backToTop";
 import Context from "@/context/Context";
 import MobileMenu from "@/components/Header/MobileMenu";
 import HeaderStyleEleven from "@/components/Header/HeaderStyle-Eleven";
-import OnlineSchool from "@/components/03-online-school/OnlineSchool";
+import OnlineSchool from "@/components/Home-Main/OnlineSchool";
 import FooterOne from "@/components/Footer/Footer-One";
 
 const OnlineSchoolPage = () => {

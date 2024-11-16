@@ -7,7 +7,6 @@ import logoLight from "../../../public/images/dark/logo/logo-light.png";
 
 import Nav from "../Nav";
 import HeaderRightTwo from "../Header-Right/HeaderRight-Two";
-import Search from "../Offcanvas/Search";
 import { useAppContext } from "@/context/Context";
 
 const HeaderNine = ({

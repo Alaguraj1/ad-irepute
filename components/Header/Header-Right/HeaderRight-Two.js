@@ -1,8 +1,6 @@
 import Link from "next/link";
 
 import { useSelector } from "react-redux";
-
-import User from "../Offcanvas/User";
 import { useAppContext } from "@/context/Context";
 
 const HeaderRightTwo = ({ btnClass, btnText, userType }) => {
