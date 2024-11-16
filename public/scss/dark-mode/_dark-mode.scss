@@ -1608,8 +1608,8 @@
     .rbt-swiper-pagination {
         .swiper-pagination-bullet {
             opacity: 1;
-            background: var(--color-primary-100);
-            box-shadow: inset 0 0 0 5px var(--color-primary-100);
+            background: var(--color-white);
+            box-shadow: inset 0 0 0 5px var(--color-white);
 
             &.swiper-pagination-bullet-active {
                 background: transparent;
