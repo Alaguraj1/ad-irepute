@@ -7,10 +7,9 @@ const Industry = () => {
     <>
       {Industries.map((res) => {
         return (
-          <div className="col-lg-2 col-md-6 col-sm-6 col-12" key={res.id}>
-            <Link
+          <div className="col-lg-2 col-md-3 col-sm-4 col-6" key={res.id}>
+            <div
               className="rbt-cat-box rbt-cat-box-1 text-center"
-              href={`#`}
             >
               <div className="inner" style={{padding:"20px"}}>
                 <div className="icons">
@@ -35,7 +34,7 @@ const Industry = () => {
                   </div> */}
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
         );
       })}

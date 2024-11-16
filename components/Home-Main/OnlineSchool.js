@@ -228,7 +228,7 @@ const OnlineSchool = () => {
               </div>
             </div>
           </div>
-          <div className="row g-5 mt--0">
+          <div className="row g-4 g-md-5 mt--0">
             <CategoryOne />
           </div>
           {/* <div className="row">
@@ -342,8 +342,8 @@ const OnlineSchool = () => {
       <div className="rbt-categories-area bg-color-secondary-alt rbt-section-gap">
         <div className="container">
           <div className="row mb--0 g-5 align-items-center">
-            <div className="col-lg-9 col-md-9 col-12">
-              <div className="section-title text-start">
+            <div className="col-lg-9 col-md-12 col-12">
+              <div className="section-title text-lg-start text-center">
                 {/* <span className="subtitle bg-primary-opacity">Our Events</span> */}
                 <h3
                   className="title mb--20"
@@ -360,8 +360,8 @@ const OnlineSchool = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-3 col-12">
-              <div className="read-more-btn text-start text-md-end">
+            <div className="col-lg-3 col-md-12 col-12">
+              <div className="read-more-btn text-center text-lg-end">
                 <Link
                   className="rbt-btn btn-gradient hover-icon-reverse radius-round"
                   href="#Banner"
@@ -379,7 +379,7 @@ const OnlineSchool = () => {
               </div>
             </div>
           </div>
-          <div className="row g-5 mt--20">
+          <div className="row g-4 g-md-5 mt--20">
             <CategoryThree />
           </div>
         </div>
@@ -387,7 +387,7 @@ const OnlineSchool = () => {
 
       <div className="rbt-team-area bg-color-white rbt-section-gap">
         <div className="container">
-          <div className="row mb--30">
+          <div className="row mb--0">
             <div className="col-lg-12">
               <div className="section-title text-center">
                 {/* <span className="subtitle bg-pink-opacity">
@@ -402,7 +402,7 @@ const OnlineSchool = () => {
               </div>
             </div>
           </div>
-          <div className="row g-5 mt--20">
+          <div className="row g-4 g-md-5 mt--0">
             <Industry />
           </div>
         </div>

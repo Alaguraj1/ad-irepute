@@ -7,10 +7,10 @@ const CategoryThree = () => {
     <>
       {Services.map((res) => {
         return (
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" key={res.id}>
-            <Link
+          <div className="col-lg-3 col-md-6 col-sm-6 col-6" key={res.id}>
+            <div
               className="rbt-cat-box rbt-cat-box-1 text-center"
-              href={`#`}
+              // href={`#`}
             >
               <div className="inner">
                 <div className="icons">
@@ -35,7 +35,7 @@ const CategoryThree = () => {
                   </div> */}
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
         );
       })}
