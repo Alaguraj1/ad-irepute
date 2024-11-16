@@ -101,58 +101,58 @@ export const Industries = [
   {
     id: 1,
     industry: "Textile",
-    img: "/images/category/web-design.png",
+    img: "/images/category/textile.png",
   },
   {
     id: 2,
     industry: "Fashion",
-    img: "/images/category/web-design.png",
+    img: "/images/category/fashion.png",
   },
  
   {
     id: 3,
     industry: "Cutting",
-    img: "/images/category/web-design.png",
+    img: "/images/category/laser-cutting.png",
   },
   {
     id: 4,
     industry: "Pumps",
-    img: "/images/category/web-design.png",
+    img: "/images/category/pumps.png",
   },
   {
     id: 5,
     industry: "Food",
-    img: "/images/category/web-design.png",
+    img: "/images/category/food.png",
   },
   {
     id: 6,
     industry: "Healthcare",
-    img: "/images/category/web-design.png",
+    img: "/images/category/healthcare.png",
   },
   {
     id: 7,
     industry: "Constructions",
-    img: "/images/category/web-design.png",
+    img: "/images/category/constructions.png",
   },
   {
     id: 8,
     industry: "Architects",
-    img: "/images/category/web-design.png",
+    img: "/images/category/architect.png",
   },
   {
     id: 9,
     industry: "Jewellery",
-    img: "/images/category/web-design.png",
+    img: "/images/category/jewelley.png",
   },
   {
     id: 10,
     industry: "Machine Accessories",
-    img: "/images/category/web-design.png",
+    img: "/images/category/machine-accessories.png",
   },
   {
     id: 11,
     industry: "Educational Institutions",
-    img: "/images/category/web-design.png",
+    img: "/images/category/education.png",
   },
 ];
 
