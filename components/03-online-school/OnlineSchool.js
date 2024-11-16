@@ -3,33 +3,12 @@ import Image from "next/image";
 import sal from "sal.js";
 import { motion } from "framer-motion";
 import Typed from "typed.js";
-
-import CallToActionFive from "../Call-To-Action/CallToAction-Five";
-import BlogGridTop from "../Blogs/Blog-Sections/BlogGrid-Top";
-
-import BlogData from "../../data/blog/blog.json";
-import EventData from "../../data/events.json";
-
-import shapeImg from "../../public/images/icons/three-shape.png";
 import Link from "next/link";
-import TestimonialTwo from "../Testimonials/Testimonial-Two";
-import TeamTen from "../Team/TeamTen";
-import Events from "../Events/Events";
-import ServiceTen from "../Services/Service-Ten";
-import CounterFive from "../Counters/Counter-Five";
-import ServiceNine from "../Services/Service-Nine";
-import Card from "../Cards/Card";
 import CategoryThree from "../Category/CategoryThree";
-
 import rightShape from "../../public/images/banner/right-shape.png";
 import topShape from "../../public/images/banner/top-shape.png";
-import client1 from "../../public/images/testimonial/client-03.png";
-import client2 from "../../public/images/testimonial/client-04.png";
-import client3 from "../../public/images/testimonial/client-06.png";
 import OnlineSchoolForm from "./OnlineSchoolForm";
-import CourseSix from "../Category/Filter/Course-Six";
 import CategoryOne from "../Category/CategoryOne";
-import TeamEight from "../Team/TeamEight";
 import BrandThree from "../Brand/Brand-Three";
 import Industry from "../industry/industry";
 
