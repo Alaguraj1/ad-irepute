@@ -208,5 +208,8 @@ export const socialLink = [
     id: 5,
     icon: "feather-youtube",
     link: "https://www.youtube.com/channel/UCsiBFUO0K4CPmFJAcl8xRZg",
+    // link:"https://web.whatsapp.com/send?phone=7871207631&text=",
   },
+
 ];
+ 

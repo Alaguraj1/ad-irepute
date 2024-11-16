@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Handle from "rc-slider/lib/Handles/Handle";
+import { headers } from "@/next.config";
+import axios from "axios";
 
 const OnlineSchoolForm = () => {
   const [focusedInput, setFocusedInput] = useState(null);
@@ -22,13 +24,24 @@ const OnlineSchoolForm = () => {
     e.preventDefault();
     console.log(formData);
 
-    setFormData({
-      name: "",
-      phone: "",
-      email: "",
-      interested: "",
-      message: "",
-    });
+    axios.post("https://irepute.in/landing-page-lead-form/", formData, {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      })
+      .then((res) => {
+        console.log(res);
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          interested: "",
+          message: "",
+        });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   return (
@@ -39,7 +52,9 @@ const OnlineSchoolForm = () => {
       </h4>
       <form id="contact-form" onSubmit={handleSubmit}>
         {/** Name Input */}
-        <div className={`form-group ${focusedInput === "name" ? "focused" : ""}`}>
+        <div
+          className={`form-group ${focusedInput === "name" ? "focused" : ""}`}
+        >
           <input
             name="name"
             type="text"
@@ -53,7 +68,9 @@ const OnlineSchoolForm = () => {
         </div>
 
         {/** Phone Input */}
-        <div className={`form-group ${focusedInput === "phone" ? "focused" : ""}`}>
+        <div
+          className={`form-group ${focusedInput === "phone" ? "focused" : ""}`}
+        >
           <input
             name="phone"
             type="text"
@@ -67,7 +84,9 @@ const OnlineSchoolForm = () => {
         </div>
 
         {/** Email Input */}
-        <div className={`form-group ${focusedInput === "email" ? "focused" : ""}`}>
+        <div
+          className={`form-group ${focusedInput === "email" ? "focused" : ""}`}
+        >
           <input
             name="email"
             placeholder="Email"
@@ -81,7 +100,11 @@ const OnlineSchoolForm = () => {
         </div>
 
         {/** Interested Dropdown */}
-        <div className={`form-group ${focusedInput === "interested" ? "focused" : ""}`}>
+        <div
+          className={`form-group ${
+            focusedInput === "interested" ? "focused" : ""
+          }`}
+        >
           <select
             name="interested"
             onFocus={() => setFocusedInput("interested")}
@@ -90,18 +113,28 @@ const OnlineSchoolForm = () => {
             value={formData.interested}
           >
             <option value="">Interested In</option>
-            <option value="Web Development">Web Development</option>
-            <option value="App Development">App Development</option>
-            <option value="Digital Marketing">Digital Marketing</option>
-            <option value="Graphic Designing">Graphic Designing</option>
-            <option value="SEO">SEO</option>
-            <option value="Other">Other</option>
+            <option value="Branding">Branding</option>
+            <option value="Logo Design">Logo Design</option>
+            <option value="Brochure Design">Brochure Design</option>
+            <option value="Website Design">Website Design</option>
+            <option value="CMS Website Development">CMS Website Development</option>
+            <option value="e-Commerce Website Development">e-Commerce Website Development</option>
+            <option value="Mobile App Development">Mobile App Development</option>
+            <option value="Search Engine Optimization">Search Engine Optimization</option>
+            <option value="Social Media Marketing">Social Media Marketing</option>
+            <option value="Pay-Per-Click">Pay-Per-Click</option>
+            <option value="Amazon Listing Services">Amazon Listing Services</option>
+            <option value="Corporate Video">Corporate Video</option>
           </select>
           <span className="focus-border"></span>
         </div>
 
         {/** Message Textarea */}
-        <div className={`form-group ${focusedInput === "message" ? "focused" : ""}`}>
+        <div
+          className={`form-group ${
+            focusedInput === "message" ? "focused" : ""
+          }`}
+        >
           <textarea
             name="message"
             onFocus={() => setFocusedInput("message")}
