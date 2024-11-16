@@ -29,7 +29,7 @@ const CategoryOne = () => {
                 </div>
                 <div className="content">
                   <h5
-                    className="title"
+                    className="title" style={{textTransform:"uppercase"}}
                     dangerouslySetInnerHTML={{ __html: res.result }}
                   ></h5>
                   {/* <div className="read-more-btn">

@@ -11,7 +11,7 @@ const CopyRight = () => {
             <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-12">
               <p className="rbt-link-hover text-center">
                 Copyright © 2024{" "}
-                <Link href="https://irepute.in/">
+                <Link href="https://irepute.in/" target="_blank">
                  repute
                 </Link>{" "}
                 All Rights Reserved

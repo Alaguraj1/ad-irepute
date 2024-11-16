@@ -550,7 +550,7 @@ fieldset:disabled {
     // Marquee
     &.rbt-marquee-btn {
       span {
-        animation: btnTxtMarqueeX 2s linear infinite;
+        animation: btnTxtMarqueeX 5s linear infinite;
       }
 
       &.marquee-text-y {

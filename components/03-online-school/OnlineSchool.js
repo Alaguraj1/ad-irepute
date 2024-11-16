@@ -360,7 +360,7 @@ const OnlineSchool = () => {
               <div className="section-title text-start">
                 {/* <span className="subtitle bg-primary-opacity">Our Events</span> */}
                 <h3 className="title mb--20" style={{ color: "#b80101", fontWeight:"500"  }}>
-                  Your Trusted Partner in digital success
+                  Your Trusted Partner in Digital Success
                 </h3>
                 <p>
                   With 19+ years of experience in uplifting brands, Repute will

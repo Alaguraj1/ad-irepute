@@ -72,7 +72,7 @@ export const Services = [
   },
   {
     id: 9,
-    service: "Pay-Per-Click",
+    service: "Pay<br/>Per-Click",
     cateSmallImg: "/images/service/service-9.png",
     cateBigImg: "/images/category/image/web-design.jpg",
   },
