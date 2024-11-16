@@ -17,9 +17,7 @@ const OnlineSchoolPage = () => {
           <MobileMenu />
           <HeaderStyleEleven />
           {/* <Cart /> */}
-
           <OnlineSchool />
-
           <BackToTop />
           <FooterOne />
         </Context>
