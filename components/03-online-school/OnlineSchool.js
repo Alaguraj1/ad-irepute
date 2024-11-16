@@ -114,7 +114,7 @@ const OnlineSchool = () => {
                     <h1 className="title">
                       <span className="header-caption ms-2">
                         <span className="cd-headline clip is-full-width">
-                          <span className="cd-words-wrapper">
+                          <span>
                             <b className="is-visible theme-gradient cd-words-wrapper"></b>
                           </span>
                         </span>
