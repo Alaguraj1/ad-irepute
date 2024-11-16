@@ -53,7 +53,7 @@ const HeaderRightTwo = ({ btnClass, btnText, userType }) => {
         </li>
       </ul> */}
 
-      <div className="d-none d-xl-block">
+      <div >
         <Link className={`rbt-btn ${btnClass}`} href={`tel:${"+91 73051 60120"}`}>
           <span data-text={`${"+91 73051 60120"}`}>+91 73051 60120</span>
         </Link>

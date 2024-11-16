@@ -42,7 +42,7 @@ const HeaderNine = ({
           !headerType && isSticky ? "rbt-sticky" : ""
         }`}
       > 
-        <div className="container" style={{padding:"10px 0px"}}>
+        <div className="container pt-lg-3 pt-0 pb-lg-3 pb-0">
           <div className={`mainbar-row ${navigationEnd} align-items-center`}>
             <div className="header-left rbt-header-content">
               <div className="header-info">
