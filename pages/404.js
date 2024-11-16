@@ -8,13 +8,14 @@ import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import NotFound from "@/components/NotFound/NotFound";
+import HeaderStyleEleven from "@/components/Header/HeaderStyle-Eleven";
 
 const ErrorPage = () => {
   return (
     <Provider store={Store}>
       <Context>
         <PageHead title="Page not found - Online Courses & Education NEXTJS14 Template" />
-        <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+        <HeaderStyleEleven />
 
         <NotFound />
 

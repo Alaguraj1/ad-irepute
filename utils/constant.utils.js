@@ -12,7 +12,7 @@ export const OurResults = [
   {
     id: 3,
     result:
-      '<span style="font-size: 24px; font-weight: 600;">19+</span> Years of Proven Excellence',
+      '<span style="font-size: 24px; font-weight: 600;">19+</span> Years of<br/> Proven Excellence',
     resultImg: "/images/category/web-design.png",
   },
   {
