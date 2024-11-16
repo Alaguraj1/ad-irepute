@@ -76,7 +76,7 @@ const HeaderNine = ({
             <HeaderRightTwo
               userType="Admin"
               btnText="Enroll Now"
-              btnClass="rbt-marquee-btn marquee-auto btn-border-gradient radius-round btn-sm hover-transform-none"
+              btnClass=" btn-border-gradient radius-round btn-sm hover-transform-none"
             />
           </div>
         </div>

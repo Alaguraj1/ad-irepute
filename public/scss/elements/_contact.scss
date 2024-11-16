@@ -1,10 +1,10 @@
 .rbt-contact-form {
     &.contact-form-style-1 {
-        padding: 50px;
+        padding: 30px;
         position: relative;
         z-index: 1;
         max-width: 490px;
-        padding-left: 60px;
+        // padding-left: 60px;
         z-index: 2;
         background: var(--color-white);
         box-shadow: var(--shadow-1);
@@ -146,7 +146,7 @@
         border-bottom: 2px solid var(--color-border);
         background-color: transparent;
         resize: none;
-        min-height: 133px;
+        min-height: 80px;
     }
 
     span {

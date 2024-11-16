@@ -1,17 +1,18 @@
 export const OurResults = [
   {
     id: 1,
-    result: "Trusted by<br/> 600+ Clients",
+    result: `Trusted by<br/> <span style="font-size: 24px; font-weight: 600;">600+</span> Clients`,
     resultImg: "/images/category/web-design.png",
   },
   {
     id: 2,
-    result: "Over 1400+<br/> Projects",
+    result: `Over <span style="font-size: 24px; font-weight: 600;">1400+</span><br/> Projects`,
     resultImg: "/images/category/web-design.png",
   },
   {
     id: 3,
-    result: "19+ Years of Proven Excellence",
+    result:
+      '<span style="font-size: 24px; font-weight: 600;">19+</span> Years of Proven Excellence',
     resultImg: "/images/category/web-design.png",
   },
   {
@@ -99,30 +100,59 @@ export const Services = [
 export const Industries = [
   {
     id: 1,
-    industry: "Manufacturing ",
-    img: "/images/team/team-01.jpg",
-    type: "Textile, Fashion, Machine Accessories, Cutting, Pumps, Food, etc",
+    industry: "Textile",
+    img: "/images/category/web-design.png",
   },
   {
     id: 2,
-    industry: "Healthcare",
-    img: "/images/team/team-01.jpg",
+    industry: "Fashion",
+    img: "/images/category/web-design.png",
   },
+ 
   {
     id: 3,
-    industry: "Real Estate",
-    img: "/images/team/team-01.jpg",
-    type: "Constructions, Architects",
+    industry: "Cutting",
+    img: "/images/category/web-design.png",
   },
   {
     id: 4,
-    industry: "Jewellery",
-    img: "/images/team/team-01.jpg",
+    industry: "Pumps",
+    img: "/images/category/web-design.png",
   },
   {
     id: 5,
+    industry: "Food",
+    img: "/images/category/web-design.png",
+  },
+  {
+    id: 6,
+    industry: "Chemistry",
+    img: "/images/category/web-design.png",
+  },
+  {
+    id: 7,
+    industry: "Constructions",
+    img: "/images/category/web-design.png",
+  },
+  {
+    id: 8,
+    industry: "Architects",
+    img: "/images/category/web-design.png",
+  },
+  {
+    id: 9,
+    industry: "Jewellery",
+    img: "/images/category/web-design.png",
+  },
+  {
+    id: 10,
+    industry: "Machine Accessories",
+    img: "/images/category/web-design.png",
+  },
+  {
+    id: 11,
     industry: "Educations Institutions",
-    img: "/images/team/team-01.jpg",
+    img: "/images/category/web-design.png",
   },
 ];
 

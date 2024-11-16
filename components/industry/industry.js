@@ -1,36 +1,31 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Industries } from "@/utils/constant.utils";
 
-import CourseDetails from "../../data/course-details/courseData.json";
-import useCategoryCount from "@/context/useCategoryCount";
-import { OurResults, Services } from "@/utils/constant.utils";
-
-const CategoryOne = () => {
-  // const { categoryCounts } = useCategoryCount(CourseDetails.courseDetails);
-
+const Industry = () => {
   return (
     <>
-      {OurResults.map((res) => {
+      {Industries.map((res) => {
         return (
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" key={res.id}>
+          <div className="col-lg-2 col-md-6 col-sm-6 col-12" key={res.id}>
             <Link
               className="rbt-cat-box rbt-cat-box-1 text-center"
-              href={`/course-filter-one-toggle/${res.result}`}
+              href={`#`}
             >
-              <div className="inner">
-                {/* <div className="icons">
+              <div className="inner" style={{padding:"20px"}}>
+                <div className="icons">
                   <Image
-                    src={res.resultImg}
+                    src={res.img}
                     width={80}
                     height={80}
                     priority
                     alt="Icons Images"
                   />
-                </div> */}
+                </div>
                 <div className="content">
                   <h5
-                    className="title" style={{textTransform:"uppercase", lineHeight:"28px"}}
-                    dangerouslySetInnerHTML={{ __html: res.result }}
+                    className="title" style={{textTransform:"uppercase", fontSize:"14px"}}
+                    dangerouslySetInnerHTML={{ __html: res.industry }}
                   ></h5>
                   {/* <div className="read-more-btn">
                     <span className="rbt-btn-link">
@@ -48,4 +43,4 @@ const CategoryOne = () => {
   );
 };
 
-export default CategoryOne;
+export default Industry;

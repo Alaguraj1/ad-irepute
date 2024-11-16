@@ -31,6 +31,7 @@ import CourseSix from "../Category/Filter/Course-Six";
 import CategoryOne from "../Category/CategoryOne";
 import TeamEight from "../Team/TeamEight";
 import BrandThree from "../Brand/Brand-Three";
+import Industry from "../industry/industry";
 
 const OnlineSchool = () => {
   useEffect(() => {
@@ -94,19 +95,23 @@ const OnlineSchool = () => {
     <>
       <div
         className="rbt-banner-area rbt-banner-3 header-transperent-spacer"
-        style={{ paddingTop: 80 }} id="Banner"
+        style={{ paddingTop: 80 }}
+        id="Banner"
       >
         <div className="wrapper">
           <div className="container">
             <div className="row g-5">
-              <div className="col-lg-7 order-2 order-lg-1">
+              <div
+                className="col-lg-7 order-2 order-lg-1"
+                style={{ display: "flex", alignItems: "center" }}
+              >
                 <div className="banner-content ">
                   <div className="inner">
                     <div className="section-title text-start">
                       <span className="subtitle bg-pink-opacity">GET</span>
                     </div>
 
-                    <h1 className="title" >
+                    <h1 className="title">
                       <span className="header-caption ms-2">
                         <span className="cd-headline clip is-full-width">
                           <span className="cd-words-wrapper">
@@ -237,8 +242,7 @@ const OnlineSchool = () => {
                 </span> */}
                 <h3
                   className="title"
-                  style={{color: "#b80101", fontWeight:"500" 
-                   }}
+                  style={{ color: "#b80101", fontWeight: "500" }}
                 >
                   Strategies that Work, Results that Speak
                 </h3>
@@ -279,7 +283,10 @@ const OnlineSchool = () => {
                 {/* <span className="subtitle bg-primary-opacity">
                   EDUCATION FOR EVERYONE
                 </span> */}
-                <h3 className="title" style={{ color: "#b80101", fontWeight:"500" }}>
+                <h3
+                  className="title"
+                  style={{ color: "#b80101", fontWeight: "500" }}
+                >
                   Trusted by the Best - Our Esteemed Clients
                 </h3>
               </div>
@@ -359,7 +366,10 @@ const OnlineSchool = () => {
             <div className="col-lg-9 col-md-9 col-12">
               <div className="section-title text-start">
                 {/* <span className="subtitle bg-primary-opacity">Our Events</span> */}
-                <h3 className="title mb--20" style={{ color: "#b80101", fontWeight:"500"  }}>
+                <h3
+                  className="title mb--20"
+                  style={{ color: "#b80101", fontWeight: "500" }}
+                >
                   Your Trusted Partner in Digital Success
                 </h3>
                 <p>
@@ -404,14 +414,19 @@ const OnlineSchool = () => {
                 {/* <span className="subtitle bg-pink-opacity">
                     Histudy Feature
                   </span> */}
-                <h3 className="title" style={{ color: "#b80101", fontWeight:"500"  }}>
+                <h3
+                  className="title"
+                  style={{ color: "#b80101", fontWeight: "500" }}
+                >
                   Building Success Across Industries
                 </h3>
               </div>
             </div>
           </div>
+          <div className="row g-5 mt--20">
+            <Industry />
+          </div>
         </div>
-        <TeamEight />
       </div>
       {/* 
       <div className="service-wrapper bg-color-white rbt-section-gapBottom">
