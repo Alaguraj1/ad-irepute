@@ -12,7 +12,7 @@ const CopyRight = () => {
               <p className="rbt-link-hover text-center">
                 Copyright © 2024{" "}
                 <Link href="https://irepute.in/" target="_blank">
-                 repute
+                  Repute Digital Business Agency
                 </Link>{" "}
                 All Rights Reserved
               </p>
