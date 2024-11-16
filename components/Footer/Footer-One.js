@@ -18,7 +18,7 @@ const FooterOne = ({ bgColor }) => {
     <>
       <footer
         className={`rbt-footer footer-style-1 ${
-          bgColor ? bgColor : "bg-color-white"
+          bgColor ? bgColor : "bg-color-secondary-alt"
         } overflow-hidden`}
       >
         <div className="footer-top">

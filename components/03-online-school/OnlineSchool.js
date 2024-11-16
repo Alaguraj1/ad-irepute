@@ -227,7 +227,7 @@ const OnlineSchool = () => {
         </div>
       </div>
 
-      <div className="rbt-categories-area bg-color-white rbt-section-gap">
+      <div className="rbt-categories-area  bg-color-secondary-alt rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -271,7 +271,7 @@ const OnlineSchool = () => {
         </div>
       </div>
 
-      <div className="rbt-brand-area bg-color-secondary-alt rbt-section-gap">
+      <div className="rbt-brand-area bg-color-white rbt-section-gap">
         <div className="container mb--30">
           <div className="row">
             <div className="col-lg-12">
@@ -353,7 +353,7 @@ const OnlineSchool = () => {
         </div>
       </div> */}
 
-      <div className="rbt-categories-area bg-color-white rbt-section-gap">
+      <div className="rbt-categories-area bg-color-secondary-alt rbt-section-gap">
         <div className="container">
           <div className="row mb--0 g-5 align-items-center">
             <div className="col-lg-9 col-md-9 col-12">
@@ -396,7 +396,7 @@ const OnlineSchool = () => {
         </div>
       </div>
 
-      <div className="rbt-team-area bg-color-secondary-alt rbt-section-gap">
+      <div className="rbt-team-area bg-color-white rbt-section-gap">
         <div className="container">
           <div className="row mb--30">
             <div className="col-lg-12">
