@@ -32,7 +32,7 @@
 %bg-gradient-9 {
     position: relative;
     z-index: 1;
-    background: linear-gradient(270deg, var(--color-secondary) 0%, #b90000 100%) !important;
+    background: linear-gradient(270deg, var(--color-secondary) 0%, #b80101 100%) !important;
 
     &::after {
         background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.1) 100%);
@@ -80,7 +80,7 @@
 }
 
 .color-primary {
-    color: #b90000 !important;
+    color: #b80101 !important;
 }
 
 .color-secondary {
@@ -134,7 +134,7 @@
 ------------------------*/
 
 .bg-color-primary {
-    background-color: #b90000 !important;
+    background-color: #b80101 !important;
 }
 
 .bg-color-secondary {
@@ -426,7 +426,7 @@
 
 .bg-primary-opacity {
     background: var(--primary-opacity) !important;
-    color: #b90000 !important;
+    color: #b80101 !important;
 }
 
 .bg-secondary-opacity {
@@ -446,7 +446,7 @@
 
 .bg-pink-opacity {
     background: #ffdfdf !important;
-    color: #b90000 !important;
+    color: #b80101 !important;
 }
 
 .bg-white-opacity {

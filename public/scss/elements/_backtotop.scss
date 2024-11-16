@@ -66,7 +66,7 @@
         text-align: center;
         line-height: 46px;
         font-size: 20px;
-        color: #b90000;
+        color: #b80101;
         left: 0;
         top: 0;
         height: 46px;
@@ -80,7 +80,7 @@
 
     &:hover {
         &::after {
-            color: #b90000;
+            color: #b80101;
         }
     }
     &::before {
@@ -103,7 +103,7 @@
         z-index: 2;
         -webkit-transition: all 200ms linear;
         transition: all 200ms linear;
-        color: #b90000;
+        color: #b80101;
     }
     svg {
         path {
@@ -111,7 +111,7 @@
         }
         &.rbt-back-circle {
             path {
-                stroke: #b90000;
+                stroke: #b80101;
                 stroke-width: 4;
                 box-sizing: border-box;
                 -webkit-transition: all 200ms linear;

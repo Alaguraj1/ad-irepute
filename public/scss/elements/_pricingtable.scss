@@ -47,7 +47,7 @@
                 }
                 &.active {
                     background-size: 300% 100%;
-                    background-image: linear-gradient(to right, #b90000, var(--color-secondary), var(--color-secondary), #b90000);
+                    background-image: linear-gradient(to right, #b80101, var(--color-secondary), var(--color-secondary), #b80101);
                     color: var(--color-white);
                 }
             }
@@ -79,14 +79,14 @@
                 font-weight: 500;
                 font-size: 50px;
                 line-height: 1.2;
-                color: #b90000;
+                color: #b80101;
                 display: inline-block;
                 @media #{$sm-layout} {
                     font-size: 36px;
                 }
             }
             .duration {
-                color: #b90000;
+                color: #b80101;
                 font-size: 16px;
                 font-weight: 500;
                 text-transform: capitalize;

@@ -63,7 +63,7 @@
 
         &.swiper-pagination-bullet-active {
             background: transparent;
-            box-shadow: inset 0 0 0 1px #b90000;
+            box-shadow: inset 0 0 0 1px #b80101;
             transform: scale(2);
             opacity: 1;
         }
@@ -155,9 +155,9 @@
         }
 
         &:hover {
-            background: #b90000;
-            border-color: #b90000;
-            color: #b90000;
+            background: #b80101;
+            border-color: #b80101;
+            color: #b80101;
 
             &::after {
                 transform: scale(1.2);
@@ -238,11 +238,11 @@
 
     &.icon-bg-primary {
         .rbt-swiper-arrow {
-            background: #b90000;
+            background: #b80101;
             color: var(--color-white);
 
             &::after {
-                background: #b90000;
+                background: #b80101;
             }
         }
     }

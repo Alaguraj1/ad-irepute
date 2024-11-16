@@ -108,11 +108,11 @@
 .ui-widget-content {
     background: var(--color-gray-lighter) none repeat scroll 0 0;
     border: 0 none;
-    color: #b90000;
+    color: #b80101;
 }
 
 .ui-slider-range.ui-widget-header.ui-corner-all {
-    background: #b90000 none repeat scroll 0 0;
+    background: #b80101 none repeat scroll 0 0;
 }
 
 .ui-slider-horizontal {
@@ -139,13 +139,13 @@
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-    background: #b90000 none repeat scroll 0 0;
+    background: #b80101 none repeat scroll 0 0;
     border: 0 none;
-    color: #b90000;
+    color: #b80101;
 }
 
 .ui-slider-range.ui-widget-header.ui-corner-all {
-    background: #b90000 none repeat scroll 0 0;
+    background: #b80101 none repeat scroll 0 0;
 }
 
 .ui-slider-horizontal {
@@ -243,7 +243,7 @@
                 line-height: 24px;
                 transition: 0.4s;
                 &:hover {
-                    background: #b90000;
+                    background: #b80101;
                     color: var(--color-white);
                 }
             }
@@ -291,7 +291,7 @@
     .dropdown-item.active, 
     .dropdown-item:active {
         background-color: var(--black-opacity);
-        color: #b90000;
+        color: #b80101;
     }
     .bootstrap-select .dropdown-menu li a span.text {
         font-size: 16px;
@@ -339,7 +339,7 @@
         font-size: 16px;
     }
     .dropdown-item:focus, .dropdown-item:hover {
-        color: #b90000;
+        color: #b80101;
         background-color: var(--black-opacity);
     }
     .btn-group>.btn-group:not(:last-child)>.btn, 

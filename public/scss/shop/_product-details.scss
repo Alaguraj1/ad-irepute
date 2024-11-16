@@ -86,7 +86,7 @@
                     right: -3px;
                 }
                 &:hover {
-                    color: #b90000;
+                    color: #b80101;
                 }
             }
             a:last-child:after { 
@@ -124,13 +124,13 @@
                     bottom: 0;
                     left: 0;
                     height: 2px;
-                    background: #b90000;
+                    background: #b80101;
                     transition: 0.4s;
                     width: 0;
                 }
                 &:hover,
                 &.active {
-                    color: #b90000;
+                    color: #b80101;
                     &::after {
                         width: 100%;
                     }

@@ -72,7 +72,7 @@
             margin-right: 6px;
         }
         &:hover {
-            background: #b90000;
+            background: #b80101;
             color: var(--color-white);
             transform: scale(1.1);
         }
@@ -108,7 +108,7 @@
         font-size: var(--font-size-b3);
         a {
             &:hover {
-                color: #b90000 !important;
+                color: #b80101 !important;
             }
         }
         @media #{$lg-layout} {

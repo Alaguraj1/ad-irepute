@@ -121,7 +121,7 @@ const OnlineSchool = () => {
                       committed to driving growth and sales for your business.
                       With our tailored strategies, we maximize your brand's
                       visibility and expand your
-                      <span style={{ color: "#b90000" }}> ROI by 3x</span> .
+                      <span style={{ color: "#b80101" }}> ROI by 3x</span> .
                     </p>
                     {/* <div className="rating mb--20">
                       <a href="#">
@@ -237,7 +237,7 @@ const OnlineSchool = () => {
                 </span> */}
                 <h3
                   className="title"
-                  style={{color: "#b90000", fontWeight:"500" 
+                  style={{color: "#b80101", fontWeight:"500" 
                    }}
                 >
                   Strategies that Work, Results that Speak
@@ -279,7 +279,7 @@ const OnlineSchool = () => {
                 {/* <span className="subtitle bg-primary-opacity">
                   EDUCATION FOR EVERYONE
                 </span> */}
-                <h3 className="title" style={{ color: "#b90000", fontWeight:"500" }}>
+                <h3 className="title" style={{ color: "#b80101", fontWeight:"500" }}>
                   Trusted by the Best - Our Esteemed Clients
                 </h3>
               </div>
@@ -300,7 +300,7 @@ const OnlineSchool = () => {
                   </span>
                   <h2
                     className="title"
-                    style={{ fontWeight: "500", color: "#b90000" }}
+                    style={{ fontWeight: "500", color: "#b80101" }}
                   >
                     Trusted by the Best <br />- Our Esteemed Clients
                   </h2>
@@ -359,7 +359,7 @@ const OnlineSchool = () => {
             <div className="col-lg-9 col-md-9 col-12">
               <div className="section-title text-start">
                 {/* <span className="subtitle bg-primary-opacity">Our Events</span> */}
-                <h3 className="title mb--20" style={{ color: "#b90000", fontWeight:"500"  }}>
+                <h3 className="title mb--20" style={{ color: "#b80101", fontWeight:"500"  }}>
                   Your Trusted Partner in digital success
                 </h3>
                 <p>
@@ -404,7 +404,7 @@ const OnlineSchool = () => {
                 {/* <span className="subtitle bg-pink-opacity">
                     Histudy Feature
                   </span> */}
-                <h3 className="title" style={{ color: "#b90000", fontWeight:"500"  }}>
+                <h3 className="title" style={{ color: "#b80101", fontWeight:"500"  }}>
                   Building Success Across Industries
                 </h3>
               </div>

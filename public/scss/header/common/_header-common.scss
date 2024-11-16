@@ -90,7 +90,7 @@
                 margin-left: 4px;
             }
             &:hover {
-                color: #b90000;
+                color: #b80101;
             }
         }
     }
@@ -168,7 +168,7 @@ ul {
                         font-weight: 400;
                         @extend %transition-4;
                         &:hover {
-                            color: #b90000;
+                            color: #b80101;
                             background: var(--black-opacity);
                         }
                     }
@@ -338,7 +338,7 @@ ul {
 
         &:hover {
             > a {
-                color: #b90000;
+                color: #b80101;
             }
         }
 
@@ -572,7 +572,7 @@ ul {
                 top: 1px;
             }
             &:hover {
-                color: #b90000;
+                color: #b80101;
             }
         }
     }
@@ -662,7 +662,7 @@ ul {
                     &:hover,
                     &.active {
                         a {
-                            color: #b90000;
+                            color: #b80101;
                             background: var(--black-opacity);
                         }
                     }
@@ -759,7 +759,7 @@ ul {
             }
             &:hover {
                 a {
-                    color: #b90000;
+                    color: #b80101;
                     background: var(--black-opacity);
                 }
             }
@@ -844,7 +844,7 @@ ul {
         z-index: 2;
         min-width: 16px;
         height: 16px;
-        background: #b90000;
+        background: #b80101;
         border-radius: 10px;
         font-size: 12px;
         text-align: center;

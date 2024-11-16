@@ -1650,7 +1650,7 @@
 
             &:hover {
                 transform: none;
-                color: #b90000;
+                color: #b80101;
             }
         }
 
@@ -1697,7 +1697,7 @@
         content: attr(data-tooltip);
         color: var(--color-white);
         padding: 5px 8px;
-        background: #b90000;
+        background: #b80101;
         width: max-content;
         border-radius: 5px;
         text-align: center;
@@ -1709,7 +1709,7 @@
         --translate-y: calc(-1 * var(--arrow-size));
         content: '';
         border: var(--arrow-size) solid transparent;
-        border-top-color: #b90000;
+        border-top-color: #b80101;
     }
 
     &:hover {
@@ -1811,7 +1811,7 @@
 
         &.swiper-slide-thumb-active {
             &::before {
-                background: linear-gradient(90deg, var(--color-secondary), #b90000);
+                background: linear-gradient(90deg, var(--color-secondary), #b80101);
             }
 
             &::after {

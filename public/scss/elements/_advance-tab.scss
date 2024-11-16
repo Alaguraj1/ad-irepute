@@ -196,14 +196,14 @@
                 position: absolute;
                 bottom: -2px;
                 left: 0;
-                background-color: #b90000;
+                background-color: #b80101;
                 transform: scaleX(0);
                 transition: transform .3s;
             }
             &.active {
                 border: 0 none;
                 outline: none;
-                color: #b90000;
+                color: #b80101;
                 &::after {
                     transform: scaleX(1);
                 }

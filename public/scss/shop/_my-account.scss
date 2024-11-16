@@ -28,8 +28,8 @@
         }
         &.active,
         &:hover {
-            background-color: #b90000;
-            background-image: linear-gradient(to right, #b90000, var(--color-secondary), var(--color-secondary), #b90000);
+            background-color: #b80101;
+            background-image: linear-gradient(to right, #b80101, var(--color-secondary), var(--color-secondary), #b80101);
             color: #fff;
             background-size: 300% 100%;
         }
@@ -61,7 +61,7 @@
         a {
             color: var(--color-body);
             &:hover {
-                color: #b90000
+                color: #b80101
             }
         }
     }
@@ -92,7 +92,7 @@
 }
 
 .rbt-saved-message {
-    border-top: 2px solid #b90000;
+    border-top: 2px solid #b80101;
     border-radius: 0;
     font-weight: 600;
     font-size: 13px;

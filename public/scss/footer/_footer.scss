@@ -82,7 +82,7 @@
                     transition: transform 0.3s;
                 }
                 &:hover {
-                    color: #b90000 !important;
+                    color: #b80101 !important;
                     &:after {
                         transform-origin: bottom left;
                         transform: scaleX(1);
@@ -115,7 +115,7 @@
             a {
                 transition: 0.3s;
                 &:hover {
-                    color: #b90000;
+                    color: #b80101;
                 }
             }
         }

@@ -27,7 +27,7 @@
                 display: block;
             }
             &.active {
-                color: #b90000;
+                color: #b80101;
             }
         }
         &:first-child {
@@ -307,9 +307,9 @@
 
                 &.active {
                     background: var(--color-white);
-                    color: #b90000;
+                    color: #b80101;
                     i {
-                        color: #b90000;
+                        color: #b80101;
                     }
                 }
             }

@@ -93,7 +93,7 @@
                         margin: 0;
                         border-radius: 3px;
                         &:hover {
-                            color: #b90000;
+                            color: #b80101;
                             background: var(--black-opacity);
                         }
                     }
@@ -137,7 +137,7 @@
                                     padding: 9px 10px;
                                     transition: 0.4s;
                                     &:hover {
-                                        color: #b90000;
+                                        color: #b80101;
                                     }
                                 }
                             }
@@ -153,7 +153,7 @@
 
                     &.active {
                         & > a {
-                            color: #b90000;
+                            color: #b80101;
                             background: var(--black-opacity);
                         }
                         .dropdown-child-wrapper {

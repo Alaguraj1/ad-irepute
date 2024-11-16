@@ -77,7 +77,7 @@
 
     &:hover,
     &.open {
-        color: #b90000;
+        color: #b80101;
 
         &::after {
             opacity: 1;
@@ -146,7 +146,7 @@
 -------------------------------*/
 
 .theme-gradient {
-    background: linear-gradient(90deg, #b90000, var(--color-secondary));
+    background: linear-gradient(to right, #770f16, #ee1c25, #ee1c25, #770f16);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-background-clip: text;
@@ -154,7 +154,7 @@
 }
 
 %theme-gradient {
-    background: linear-gradient(90deg, #b90000, var(--color-secondary));
+    background: linear-gradient(90deg, #b80101, var(--color-secondary));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-background-clip: text;
@@ -253,7 +253,7 @@
         width: 500px;
         height: 500px;
         border-radius: 1000px;
-        background-image: linear-gradient(45deg, #b90000, var(--color-secondary));
+        background-image: linear-gradient(45deg, #b80101, var(--color-secondary));
         opacity: 0.2;
         filter: blur(100px);
         content: "";
@@ -416,7 +416,7 @@
             @extend %transition;
 
             &:hover {
-                color: #b90000;
+                color: #b80101;
             }
         }
     }
@@ -471,11 +471,11 @@ hr {
 }
 
 .border-bottom-4 {
-    border-bottom: 4px solid #b90000;
+    border-bottom: 4px solid #b80101;
 }
 
 .border-top-bar-primary-color {
-    border-top: 5px solid #b90000;
+    border-top: 5px solid #b80101;
 }
 
 .border-top-bar-secondary-color {
@@ -499,7 +499,7 @@ hr {
 // Border Color
 
 .border-color-primary {
-    border-color: #b90000;
+    border-color: #b80101;
 }
 
 .border-color-secondary {
@@ -784,7 +784,7 @@ hr {
     .rbt-edit-photo {
         background: var(--color-gray-light);
         border-radius: 100%;
-        color: #b90000;
+        color: #b80101;
         width: 100%;
         height: 100%;
         padding: 0;
@@ -792,7 +792,7 @@ hr {
         transition: 0.3s;
 
         &:hover {
-            background: #b90000;
+            background: #b80101;
             color: var(--color-white);
         }
     }

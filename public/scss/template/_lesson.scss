@@ -109,7 +109,7 @@
         }
         input[type=checkbox]:checked ~ label, 
         input[type=radio]:checked ~ label {
-            border-color: #b90000;
+            border-color: #b80101;
         }
         input[type=checkbox] ~ label::before, 
         input[type=radio] ~ label::before {
@@ -169,7 +169,7 @@
     transition: background .3s ease-in-out, border .3s ease-in-out;
     &:hover{
         background: var(--black-opacity) !important;
-        border-color: #b90000;
+        border-color: #b80101;
     }
     input[type=file]{
             width: 350px;
@@ -184,11 +184,11 @@
             background: var(--primary-opacity) !important;
             padding: 10px 20px;
             border-radius: 10px;
-            color: #b90000 !important;
+            color: #b80101 !important;
             cursor: pointer;
           }
         &::file-selector-button:hover {
-            background: #b90000 !important;
+            background: #b80101 !important;
             color: var(--color-white) !important;
           }
     }
@@ -201,7 +201,7 @@
 -------------------------*/
 
 .lesson-top-bar {
-    background: #b90000;
+    background: #b80101;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -218,7 +218,7 @@
         }
         &:hover {
             i {
-                color: #b90000;
+                color: #b80101;
             }
         }
     }

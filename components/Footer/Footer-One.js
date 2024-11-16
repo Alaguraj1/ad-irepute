@@ -31,7 +31,7 @@ const FooterOne = ({ bgColor }) => {
                   Let’s make your business thrive.
                 </h4>
 
-                <h2 className="mb--5" style={{ color: "#b90000" }}>
+                <h2 className="mb--5" style={{ color: "#b80101" }}>
                   Let’s Talk
                 </h2>
                 <p style={{ fontSize: "22px" }}>

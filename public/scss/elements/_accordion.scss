@@ -41,10 +41,10 @@
                 }
 
                 &[aria-expanded="true"] {
-                    color: #b90000;
+                    color: #b80101;
                     &::before {
                         @extend %theme-gradient;
-                        color: #b90000;
+                        color: #b80101;
                     }
                 }
                 &::before {
@@ -346,7 +346,7 @@
                             font-size: 13px;
                             width: 18px;
                             height: 18px;
-                            background: #b90000;
+                            background: #b80101;
                             border-radius: 100%;
                             color: var(--color-white);
                             display: inline-block;

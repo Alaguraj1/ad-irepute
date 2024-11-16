@@ -338,14 +338,14 @@
     height: 4px;
     left: 0;
     top: 0;
-    background-image: radial-gradient(ellipse at center,#b90000 0,rgba(255,255,255,0) 70%);
+    background-image: radial-gradient(ellipse at center,#b80101 0,rgba(255,255,255,0) 70%);
 }
 
 .hanger-line > .col-lg-3::before {
     content: "";
     width: 3px;
     height: 32px;
-    background-image: linear-gradient(#b90000, rgba(255,255,255,0));
+    background-image: linear-gradient(#b80101, rgba(255,255,255,0));
     left: 50%;
     bottom: 100%;
     position: absolute;
@@ -361,7 +361,7 @@
     content: "";
     width: 20px;
     height: 20px;
-    border: 4px solid #b90000;
+    border: 4px solid #b80101;
     border-radius: 100%;
     left: 50%;
     bottom: calc(100% + 23px);

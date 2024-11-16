@@ -348,7 +348,7 @@
         svg {
             font-size: 60px;
             stroke-width: 1;
-            color: #b90000;
+            color: #b80101;
             width: 60px;
             height: 60px;
         }
@@ -755,9 +755,9 @@
         }
 
         .label-new {
-            background: #b90000;
-            background: linear-gradient(145deg, #b90000 0%, var(--color-secondary) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b90000', endColorstr='var(--color-secondary)', GradientType=1);
+            background: #b80101;
+            background: linear-gradient(145deg, #b80101 0%, var(--color-secondary) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b80101', endColorstr='var(--color-secondary)', GradientType=1);
             padding: 5px 11px;
             color: #fff;
             border-radius: 4px;
@@ -927,7 +927,7 @@
 
     .content {
         padding: 30px 20px;
-        background-image: linear-gradient(to right, #b90000, var(--color-secondary), var(--color-secondary), #b90000);
+        background-image: linear-gradient(to right, #b80101, var(--color-secondary), var(--color-secondary), #b80101);
         background-size: 300% 100%;
 
         @media #{$sm-layout} {
@@ -1074,7 +1074,7 @@
             img {
                 width: 50px;
                 height: auto;
-                color: #b90000;
+                color: #b80101;
                 stroke-width: 1 !important;
             }
         }
@@ -1124,7 +1124,7 @@
                 }
 
                 i {
-                    color: #b90000;
+                    color: #b80101;
                     font-size: 32px;
                 }
             }

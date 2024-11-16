@@ -70,7 +70,7 @@
                 color: var(--color-heading);
                 @extend %transition;
                 &:hover {
-                    color: #b90000;
+                    color: #b80101;
                 }
             }
         }
@@ -529,7 +529,7 @@
                     transition: 0.3s;
                     &:hover {
                         background: var(--primary-opacity);
-                        color: #b90000;
+                        color: #b80101;
                     }
                 }
             }

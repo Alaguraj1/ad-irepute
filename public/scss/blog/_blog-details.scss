@@ -34,7 +34,7 @@
     p {
         line-height: 1.67;
         a {
-            color: #b90000;
+            color: #b80101;
         }
     }
 
@@ -72,12 +72,12 @@
                 }
                 &:hover {
                     i {
-                        background-color: #b90000;
+                        background-color: #b80101;
                         color: var(--color-white);
-                        border-color: #b90000;
+                        border-color: #b80101;
                     }
                     span {
-                        color: #b90000;
+                        color: #b80101;
                     }
                 }
             }
@@ -117,9 +117,9 @@
         border-radius: 4px;
         @extend %transition;
         &:hover {
-            background-color: #b90000;
+            background-color: #b80101;
             color: #ffffff;
-            border-color: #b90000;
+            border-color: #b80101;
         }
     }
 }
@@ -166,7 +166,7 @@
                                 color: var(--color-heading);
                             }
                             &::after {
-                                color: #b90000;
+                                color: #b80101;
                             }
                         }
                     }
@@ -310,7 +310,7 @@
                             color: var(--color-heading);
                         }
                         &::after {
-                            color: #b90000;
+                            color: #b80101;
                         }
                     }
                 }
@@ -336,7 +336,7 @@
                     font-size: 14px;
                     line-height: 18px;
                     display: flex;
-                    color: #b90000;
+                    color: #b80101;
                     margin-left: 8px;
                     padding-left: 8px;
                     position: relative;
@@ -349,12 +349,12 @@
                                 color: var(--color-heading);
                             }
                             &::after {
-                                color: #b90000;
+                                color: #b80101;
                             }
                         }
                     }
                     &:hover {
-                        color: #b90000;
+                        color: #b80101;
                     }
                     &::before {
                         position: absolute;

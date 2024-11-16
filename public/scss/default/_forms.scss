@@ -81,23 +81,23 @@ textarea {
     }
 
     &.p-holder__active {
-        border-color: #b90000;
+        border-color: #b80101;
 
         /* -- Placeholder -- */
         &::placeholder {
-            color: #b90000;
+            color: #b80101;
             /* Firefox */
             opacity: 1;
         }
 
         &:-ms-input-placeholder {
             /* Internet Explorer 10-11 */
-            color: #b90000;
+            color: #b80101;
         }
 
         &::-ms-input-placeholder {
             /* Microsoft Edge */
-            color: #b90000;
+            color: #b80101;
         }
     }
 
@@ -127,7 +127,7 @@ textarea {
     }
 
     &:focus {
-        border-color: #b90000;
+        border-color: #b80101;
     }
 }
 
@@ -196,8 +196,8 @@ input[type="radio"] {
     &:checked {
         ~label {
             &::before {
-                background-color: #b90000;
-                border-color: #b90000;
+                background-color: #b80101;
+                border-color: #b80101;
             }
 
             &::after {
@@ -237,8 +237,8 @@ input[type="radio"] {
         margin-bottom: 0;
 
         &:checked {
-            background-color: #b90000;
-            border-color: #b90000;
+            background-color: #b80101;
+            border-color: #b80101;
         }
 
         &:focus {
@@ -267,7 +267,7 @@ input[type="radio"] {
     color: var(--color-white-off);
 
     &:hover {
-        color: #b90000;
+        color: #b80101;
     }
 }
 
@@ -303,7 +303,7 @@ input[type="radio"] {
         width: 100%;
 
         &:focus {
-            border-color: #b90000;
+            border-color: #b80101;
         }
     }
 
@@ -319,7 +319,7 @@ input[type="radio"] {
         width: 100%;
 
         &:focus {
-            border-color: #b90000;
+            border-color: #b80101;
         }
     }
 }
@@ -383,7 +383,7 @@ textarea {
     .react-select__option--is-selected,
     .react-select__option--is-focused {
         background-color: var(--black-opacity);
-        color: #b90000;
+        color: #b80101;
     }
 }
 
@@ -398,8 +398,8 @@ input[type="submit"] {
     display: block;
     font-weight: 500;
     transition: 0.3s;
-    border: var(--border-width) solid #b90000;
-    background: #b90000;
+    border: var(--border-width) solid #b80101;
+    background: #b80101;
     color: #ffffff;
     height: 60px;
     margin-top: 30px;
