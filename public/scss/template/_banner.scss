@@ -633,14 +633,22 @@
         background-repeat: repeat-x;
         background-size: auto;
         height: 206px;
-        width: 52%;
-
+        width: 65%;
+      @media(max-width:1440px) {
+        width: 70%;
+      }
         @media #{$lg-layout} {
             height: 275px;
+            width: 100%;
         }
 
+        @media #{$md-layout} {
+            // width: 72%;
+            display: none;
+        }
         @media #{$sm-layout} {
-            width: 72%;
+            // width: 72%;
+            display: none;
         }
     }
 }

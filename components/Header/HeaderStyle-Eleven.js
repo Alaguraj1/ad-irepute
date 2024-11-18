@@ -6,7 +6,7 @@ const HeaderStyleEleven = () => {
   const { isLightTheme, toggleTheme } = useAppContext();
   return (
     <>
-      <DarkSwitch />
+      {/* <DarkSwitch /> */}
       <header className="rbt-header rbt-header-10 rbt-transparent-header">
         <div className="rbt-sticky-placeholder"></div>
         <HeaderNine
