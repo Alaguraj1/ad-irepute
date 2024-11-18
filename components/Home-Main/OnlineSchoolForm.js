@@ -170,6 +170,7 @@ const OnlineSchoolForm = () => {
             onChange={handleChange}
             value={formData.interested}
           >
+            <option value="">Interested In</option>
             <option value="Branding">Branding</option>
             <option value="Logo Design">Logo Design</option>
             <option value="Brochure Design">Brochure Design</option>
