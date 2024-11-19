@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useRouter } from "next/router";
 
 const OnlineSchoolForm = () => {
+
+  const router = useRouter();
+
   const [focusedInput, setFocusedInput] = useState(null);
   const [formData, setFormData] = useState({
     name: "",
@@ -72,7 +76,8 @@ const OnlineSchoolForm = () => {
           interested: "",
           message: "",
         });
-        alert("Thank you for your message!");
+        router.push("/thank-you");
+        // alert("Thank you for your message!");
       } else {
         // Handle validation errors
         const errors = response.data.invalid_fields.reduce((acc, field) => {
