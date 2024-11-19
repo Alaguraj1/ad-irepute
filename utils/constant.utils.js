@@ -101,7 +101,7 @@ export const Industries = [
   {
     id: 1,
     industry: "B2B",
-    img: "/images/category/pumps.png",
+    img: "/images/category/b2b.png",
   },
   {
     id: 2,
@@ -111,12 +111,12 @@ export const Industries = [
   {
     id: 3,
     industry: "Ecommerce",
-    img: "/images/category/fashion.png",
+    img: "/images/category/ecommerce.png",
   },
   {
     id: 4,
     industry: "Real Estate",
-    img: "/images/category/laser-cutting.png",
+    img: "/images/category/real-estate.png",
   },
   {
     id: 5,
@@ -126,7 +126,7 @@ export const Industries = [
   {
     id: 6,
     industry: "Manufacturing",
-    img: "/images/category/constructions.png",
+    img: "/images/category/Manufacturing.png",
   },
   {
     id: 7,
@@ -137,7 +137,7 @@ export const Industries = [
   {
     id: 8,
     industry: "FMCG & Retail",
-    img: "/images/category/food.png",
+    img: "/images/category/fmcg.png",
   },
   // {
   //   id: 5,

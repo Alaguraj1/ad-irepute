@@ -84,7 +84,7 @@ const OnlineSchool = () => {
                       <span className="header-caption ms-2">
                         <span className="cd-headline clip is-full-width">
                           <span>
-                            <b className="is-visible theme-gradient cd-words-wrapper"></b>
+                            <b className="is-visible theme-gradient cd-words-wrapper banner-animation-text"></b>
                           </span>
                         </span>
                       </span>
