@@ -37,12 +37,12 @@ const OnlineSchool = () => {
   useEffect(() => {
     const typeitInstance = new Typed(".is-visible", {
       strings: [
-        "Your Brand in the Spotlight",
+        "Your Brand in Spotlight",
         "Websites that WOW",
         "Sales that Scale",
-        "Creatives that Speak Loud",
-        "Websites that are seen in the Top",
-        "Leads that convert - Ads",
+        "Creatives that Speak",
+        "Sites Seen at the Top",
+        "Leads that convert",
       ],
       typeSpeed: 80,
       backSpeed: 60,
@@ -67,13 +67,17 @@ const OnlineSchool = () => {
           <div className="container">
             <div className="row g-5">
               <div
-                className="col-lg-7 order-2 order-lg-1"
+                className="col-lg-7 "
                 style={{ display: "flex", alignItems: "center" }}
               >
                 <div className="banner-content ">
                   <div className="inner">
-                    <div className="section-title text-start">
+                    {/* <div className="section-title text-start">
                       <span className="subtitle bg-pink-opacity">GET</span>
+                    </div> */}
+
+                    <div className="section-title text-start">
+                      <h5 className="title" style={{fontSize:"26px"}}>Get</h5>
                     </div>
 
                     <h1 className="title">
@@ -164,7 +168,7 @@ const OnlineSchool = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 order-1 order-lg-2">
+              <div className="col-lg-5 mt-0">
                 <OnlineSchoolForm />
               </div>
             </div>

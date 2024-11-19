@@ -7,7 +7,7 @@ const Industry = () => {
     <>
       {Industries.map((res) => {
         return (
-          <div className="col-lg-2 col-md-3 col-sm-4 col-6" key={res.id}>
+          <div className="col-lg-3 col-md-3 col-sm-4 col-6" key={res.id}>
             <div
               className="rbt-cat-box rbt-cat-box-1 text-center"
             >

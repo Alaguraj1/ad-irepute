@@ -12,7 +12,7 @@ export const OurResults = [
   {
     id: 3,
     result:
-      '<span style="font-size: 24px; font-weight: 600;">19+</span> Years of<br/> Proven Excellence',
+      '<span style="font-size: 24px; font-weight: 600;">19+</span> Years of<br/> Excellence',
     resultImg: "/images/category/web-design.png",
   },
   {
@@ -55,7 +55,7 @@ export const Services = [
   },
   {
     id: 6,
-    service: "eCommerce Website Development",
+    service: "Ecommerce<br/> Development",
     cateSmallImg: "/images/service/service-6.png",
     cateBigImg: "/images/category/image/web-design.jpg",
   },
@@ -85,7 +85,7 @@ export const Services = [
   },
   {
     id: 11,
-    service: "Amazon Listing Services/ Marketplace",
+    service: "Market Place<br/> Services",
     cateSmallImg: "/images/service/service-11.png",
     cateBigImg: "/images/category/image/web-design.jpg",
   },
@@ -100,60 +100,60 @@ export const Services = [
 export const Industries = [
   {
     id: 1,
-    industry: "Textile",
-    img: "/images/category/textile.png",
-  },
-  {
-    id: 2,
-    industry: "Fashion",
-    img: "/images/category/fashion.png",
-  },
- 
-  {
-    id: 3,
-    industry: "Cutting",
-    img: "/images/category/laser-cutting.png",
-  },
-  {
-    id: 4,
-    industry: "Pumps",
+    industry: "B2B",
     img: "/images/category/pumps.png",
   },
   {
-    id: 5,
-    industry: "Food",
-    img: "/images/category/food.png",
+    id: 2,
+    industry: "Education",
+    img: "/images/category/education.png",
   },
   {
-    id: 6,
+    id: 3,
+    industry: "Ecommerce",
+    img: "/images/category/fashion.png",
+  },
+  {
+    id: 4,
+    industry: "Real Estate",
+    img: "/images/category/laser-cutting.png",
+  },
+  {
+    id: 5,
     industry: "Healthcare",
     img: "/images/category/healthcare.png",
   },
   {
-    id: 7,
-    industry: "Constructions",
+    id: 6,
+    industry: "Manufacturing",
     img: "/images/category/constructions.png",
   },
   {
+    id: 7,
+    industry: "Textile",
+    img: "/images/category/textile.png",
+  },
+
+  {
     id: 8,
-    industry: "Architects",
-    img: "/images/category/architect.png",
+    industry: "FMCG & Retail",
+    img: "/images/category/food.png",
   },
-  {
-    id: 9,
-    industry: "Jewellery",
-    img: "/images/category/jewelley.png",
-  },
-  {
-    id: 10,
-    industry: "Machine Accessories",
-    img: "/images/category/machine-accessories.png",
-  },
-  {
-    id: 11,
-    industry: "Educational Institutions",
-    img: "/images/category/education.png",
-  },
+  // {
+  //   id: 5,
+  //   industry: "Food",
+  //   img: "/images/category/food.png",
+  // },
+  // {
+  //   id: 9,
+  //   industry: "Jewellery",
+  //   img: "/images/category/jewelley.png",
+  // },
+  // {
+  //   id: 10,
+  //   industry: "Machine Accessories",
+  //   img: "/images/category/machine-accessories.png",
+  // },
 ];
 
 export const OurClients = [
@@ -210,6 +210,4 @@ export const socialLink = [
     link: "https://www.youtube.com/channel/UCsiBFUO0K4CPmFJAcl8xRZg",
     // link:"https://web.whatsapp.com/send?phone=7871207631&text=",
   },
-
 ];
- 
