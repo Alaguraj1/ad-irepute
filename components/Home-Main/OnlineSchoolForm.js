@@ -85,7 +85,7 @@ const OnlineSchoolForm = () => {
           return acc;
         }, {});
         setErrMsg(errors); // Set validation error messages for fields
-        alert("Please check your form entries and try again.");
+        // alert("Please check your form entries and try again.");
       }
     } catch (error) {
       console.error("Submission error:", error);
