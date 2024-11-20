@@ -1,7 +1,7 @@
 export const OurResults = [
   {
     id: 1,
-    result: `Trusted by<br/> <span style="font-size: 24px; font-weight: 600;">600+</span> Clients`,
+    result: `Trusted by<br/> <span style="font-size: 24px; font-weight: 600;">1000+</span> Clients`,
     resultImg: "/images/category/web-design.png",
   },
   {
@@ -17,7 +17,7 @@ export const OurResults = [
   },
   {
     id: 4,
-    result: "Unmatched<br/> Support",
+    result: `<span style="font-size: 24px; font-weight: 600;">50+</span> In-House<br/> Experts`,
     resultImg: "/images/category/web-design.png",
   },
 ];

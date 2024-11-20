@@ -77,11 +77,11 @@ const OnlineSchool = () => {
                     </div> */}
 
                     <div className="section-title text-start">
-                      <h5 className="title" style={{fontSize:"26px"}}>Get</h5>
+                      <h1 className="title">Get</h1>
                     </div>
 
                     <h1 className="title">
-                      <span className="header-caption ms-2">
+                      <span className="header-caption">
                         <span className="cd-headline clip is-full-width">
                           <span>
                             <b className="is-visible theme-gradient cd-words-wrapper banner-animation-text"></b>
