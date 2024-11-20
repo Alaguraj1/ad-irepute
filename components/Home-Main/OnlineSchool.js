@@ -42,7 +42,7 @@ const OnlineSchool = () => {
         "Sales that Scale",
         "Creatives that Speak",
         "Sites Seen at the Top",
-        "Leads that convert",
+        "Leads that Convert",
       ],
       typeSpeed: 80,
       backSpeed: 60,

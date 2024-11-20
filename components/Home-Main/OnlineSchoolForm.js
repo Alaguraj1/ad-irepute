@@ -3,7 +3,6 @@ import axios from "axios";
 import { useRouter } from "next/router";
 
 const OnlineSchoolForm = () => {
-
   const router = useRouter();
 
   const [focusedInput, setFocusedInput] = useState(null);
@@ -96,8 +95,7 @@ const OnlineSchoolForm = () => {
   return (
     <div className="rbt-contact-form contact-form-style-1">
       <h4 className="title" style={{ fontWeight: "500" }}>
-        Let’s Get
-        <br /> On A Discovery Call
+        Let’s Connect <br/>Your Digital Success Awaits 
       </h4>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div

@@ -529,7 +529,7 @@
             }
 
             .title {
-                font-size: 35px;
+                font-size: 36px;
                 font-weight: 600;
                 margin-bottom: 10px;
 
@@ -544,11 +544,12 @@
 
                 @media #{$sm-layout} {
                     font-size: 24px;
-                    margin-bottom: 18px;
+                    margin-bottom: 5px;
                 }
 
                 @media #{$large-mobile} {
-                    font-size: 36px;
+                    font-size: 24px;
+                    margin-bottom: 5px;
                 }
             }
 
