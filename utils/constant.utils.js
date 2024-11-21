@@ -187,8 +187,9 @@ export const socialLink = [
   {
     id: 1,
     icon: "feather-facebook",
-    link: "https://www.facebook.com/irepute.agency",
+    link: "https://www.facebook.com/ireputeagency/",
   },
+
   {
     id: 2,
     icon: "feather-twitter",
@@ -202,12 +203,12 @@ export const socialLink = [
   {
     id: 4,
     icon: "feather-linkedin",
-    link: "https://www.linkedin.com/irepute-agency",
+    link: "https://www.linkedin.com/company/irepute-agency/",
   },
   {
     id: 5,
     icon: "feather-youtube",
-    link: "https://www.youtube.com/channel/UCsiBFUO0K4CPmFJAcl8xRZg",
+    link: "https://www.youtube.com/@ireputeagency",
     // link:"https://web.whatsapp.com/send?phone=7871207631&text=",
   },
 ];

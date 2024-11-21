@@ -32,8 +32,8 @@ const FooterOne = ({ bgColor }) => {
                 </h2>
                 <p style={{ fontSize: "22px" }}>
                   {" "}
-                  <Link href="mailto:support@irepute.in">
-                    support@irepute.in
+                  <Link href="tel:+91 7305160120">
+                    +91 7305160120
                   </Link>
                 </p>
               </div>
